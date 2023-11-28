@@ -1,0 +1,92 @@
+
+body{
+  margin: 0;
+  text-align: center;
+}
+
+
+h4{
+  margin: 0;
+  font-family: Verdana;
+  font-weight: normal;
+}
+
+.container{
+  width: 300px;
+  height: 260px;
+  box-shadow: 
+  3px 3px 3px 3px rgba(0,0,0,0.2),
+  -3px -3px 3px 3px rgba(0,0,0,0.2);
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+  padding: 7px;
+}
+
+input{
+  width: 284px;
+  height: 40px;
+  outline: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 3px;
+  font-family: Verdana;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+
+.login{
+  width: 286px;
+  margin-top: 1px;
+  padding:10px ;
+  background-color:#1877f2;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  outline:none;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.login:hover{
+  color:black;
+}
+
+
+.forget{
+  margin: 10px 0;
+  display: block;
+  text-decoration: none;
+}
+
+.forget:hover{
+ text-decoration: underline;
+}
+
+hr{
+  margin: 20px 0;
+  opacity: 0.4;
+}
+.create{
+  display:block;
+  margin: auto;
+  width: 50%;
+  margin-top: 1px;
+  padding:10px 1;
+  background-color:#1877f2;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  outline:none;
+  border-radius: 5px;
+  background-color: rgba(0,206,0,1);
+  transition:0.2s;
+  outline: none;
+}
+
+.create:hover{
+  color:black;
+  
+}
